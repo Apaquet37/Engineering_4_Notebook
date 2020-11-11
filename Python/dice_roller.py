@@ -12,4 +12,4 @@ while True:
 	if repeat == (""): #If the user presses enter, roll the die
 		print(randint(1,6)) #This prints a random integer between 1 and 6
 	if repeat == ("x"): #If the user presses x and then enter,
-		exit() #Exit the program
+		exit() #Exit the program 
