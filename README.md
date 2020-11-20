@@ -23,4 +23,4 @@ In this assignment I had to make a dice roller. The goal was that when the user 
 
 [Calculator Code](Python/calculator.py)
 
-<img src="Media/calc1.png" width="300"> <img src="Media/calc2.png" width="300">
+<img src="Media/pycalc1.png" width="420"> <img src="Media/pycalc2.png" width="400">
