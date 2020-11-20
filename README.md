@@ -17,3 +17,10 @@ In this assignment I had to make a dice roller. The goal was that when the user 
 [Hello Python Code](Python/dice_roller.py)
 
 <img src="Media/diceroller.png" width="500">
+
+## Calculator
+
+
+[Calculator Code](Python/calculator.py)
+
+<img src="Media/calc1.png" width="300"> <img src="Media/calc2.png" width="300">
