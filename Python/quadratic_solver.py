@@ -1,8 +1,6 @@
 #Quadratic Solver
 #Written by: Elisabeth Scharf and Abigail Paquette
 
-import array as arr
-
 def quadCalc(a,b,c):
   intA = int(a)
   intB = int(b)
@@ -14,12 +12,10 @@ def quadCalc(a,b,c):
   if disc == 0:
     return("The root is: {0}".format(Q1))
   if disc > 0:
-    print("Two roots:")
     pos = ((disc**0.5)/(2*intA))
     w = round((Q1 - pos),5)
     x = round((Q1 + pos),5)
-    list = arr.array('d', [w, x])
-    return(list)
+    return([w,x])
 
 
 while True:
@@ -27,4 +23,10 @@ while True:
     a = input("Enter the first coefficient: ")
     b = input("Enter the second coefficient: ")
     c = input("Enter the third coefficient: ")
-    print(quadCalc(a,b,c))
+    returnVal = quadCalc(a,b,c)
+    if isinstance(returnVal,list):
+      print("Two roots:")
+      for root in returnVal:
+        print(root)
+    else:
+      print(returnVal)  
