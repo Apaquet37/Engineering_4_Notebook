@@ -26,3 +26,14 @@ The biggest thing I learned while making the calculator was the benefit of colla
 [Calculator Code](Python/calculator.py)
 
 <img src="Media/pycalc1.png" width="420"> <img src="Media/pycalc2.png" width="400">
+
+## Quadratic Solver
+This assignment was to make a program that found the roots of a quadratic. The requirements were:
+- The program sends the three coefficients to a function 
+- The function calculates the discriminant for the quadratic
+- If the discriminant is negative, the user gets a message that there are no real roots
+- If the discriminant is zero or positive, the function returns an array of the two roots. The program then prints the two roots. This occurs outside of the function.
+
+[Quadratic Solver Code](Python/quadratic_solver.py)
+
+<img src="Media/quadratic.png" width="500">
