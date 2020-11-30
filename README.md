@@ -39,3 +39,10 @@ Since I already understood how to use functions this time, the most complicated 
 [Quadratic Solver Code](Python/quadratic_solver.py)
 
 <img src="Media/quadratic.png" width="500">
+
+## Strings and Loops
+
+
+[Strings and Loops Code](Python/strings_loops.py)
+
+<img src="Media/stringsloops1.png" width="350"> <img src="Media/stringsloops2.png" width="300">
