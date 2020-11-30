@@ -11,7 +11,5 @@ array1 = np.array(letters)
 k = []
 
 for i in letters:
-    str(i).replace((array1[2]), '-')
-    txt.split(" ")
     newStr = i.replace(' ', '-')
     print(newStr)
