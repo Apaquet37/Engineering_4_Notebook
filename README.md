@@ -41,8 +41,8 @@ Since I already understood how to use functions this time, the most complicated 
 <img src="Media/quadratic.png" width="500">
 
 ## Strings and Loops
-
+For this assignment we had to splt apart a simple sentence. The letters in the sentence needed to printed one at a time with a dash (minus sign) at the end of each word. We did this assignment pretty quickly because, through a trial and error process, we stumbled upon a solution efficiently. Really all the code does is ask a user to input a sentence, make that sentence into a list, and then run a for loop. The for loop looks at the number of characters in the sentence, and runs through that number of times, printing one letter at a time and replacing the spaces with dashes. To do that, we used the replace() function.
 
 [Strings and Loops Code](Python/strings_loops.py)
 
-<img src="Media/stringsloops1.png" width="350"> <img src="Media/stringsloops2.png" width="300">
+<img src="Media/stringsloops1.png" width="365"> <img src="Media/stringsloops2.png" width="300">
