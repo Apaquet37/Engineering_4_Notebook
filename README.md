@@ -46,3 +46,5 @@ For this assignment we had to splt apart a simple sentence. The letters in the s
 [Strings and Loops Code](Python/strings_loops.py)
 
 <img src="Media/stringsloops1.png" width="365"> <img src="Media/stringsloops2.png" width="300">
+
+## MSP
