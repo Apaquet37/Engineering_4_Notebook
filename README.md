@@ -50,4 +50,4 @@ For this assignment we had to splt apart a simple sentence. The letters in the s
 ## MSP
 This assignment was to make the traditional two player game of hangman -- or as we're now calling it: Man Shaped Piñata (MSP).
 
-[Man Shaped Piñata Code] (Python/msp.py)
+[Man Shaped Piñata Code](Python/msp.py)
