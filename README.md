@@ -61,3 +61,6 @@ Key takeaways are to break things down into small pieces and plan first (don't g
 Here are pictures of the program in action. One example is a successful guessing attempt for the word elephant, and one is an unsuccessful round with hello.
 
 <img src="Media/cue1.png" width="400"> <img src="Media/cue2.png" width="400"> <img src="Media/msp1a.png" width="300"> <img src="Media/msp1a2.png" width="300"> <img src="Media/msp1b.png" width="300"> <img src="Media/msp2a.png" width="300"> <img src="Media/msp2b.png" width="300"> <img src="Media/msp2c.png" width="300">
+
+## GPIO Pins - SSH
+This assignment was to remotely blink an LED with you pi using SSH (Secure Shell).
