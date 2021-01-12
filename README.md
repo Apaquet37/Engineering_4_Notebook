@@ -63,4 +63,6 @@ Here are pictures of the program in action. One example is a successful guessing
 <img src="Media/cue1.png" width="400"> <img src="Media/cue2.png" width="400"> <img src="Media/msp1a.png" width="300"> <img src="Media/msp1a2.png" width="300"> <img src="Media/msp1b.png" width="300"> <img src="Media/msp2a.png" width="300"> <img src="Media/msp2b.png" width="300"> <img src="Media/msp2c.png" width="300">
 
 ## GPIO Pins - SSH
-This assignment was to remotely blink an LED with you pi using SSH (Secure Shell).
+This assignment was to remotely blink an LED on and off with your pi using SSH (Secure Shell).
+
+I found this assignment pretty quick and easy, 
