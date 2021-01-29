@@ -65,4 +65,6 @@ Here are pictures of the program in action. One example is a successful guessing
 ## GPIO Pins - SSH
 This assignment was to remotely blink an LED on and off with your pi using SSH (Secure Shell).
 
-I found this assignment pretty quick and easy, 
+I found this assignment pretty quick and easy, but it was a bit tricky to get used to SSH and connecting wirelessly to my pi. The first thing I had to do was go into beagleterm and connect like usual, in order to find my pi's ip address. From there, all you have to do is put your pi's ip address into the Secure Shell, connect, and then you can unplug your pi (as long as you still power it somehow). For me, the biggest challenge was being able to connect to my pi more than once using ssh, because the pi's ip address kept changing. To fix this, I went into my wifi settings and reserved an ip address for my pi, that way everytime it boots up it will have this same static ip address. Once I could reliably connect, it was pretty simple to just write code that would make the led blink once each time it ran. This program uses GPIO (General Purpose Input Output) pins, which are a little confusing to figure out, but if you just google a diagram of the pins, you can find out what each pin is.
+
+<img src="Media/ledBlinkSSH.GIF" width="300">
