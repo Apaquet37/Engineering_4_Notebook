@@ -69,4 +69,4 @@ I found this assignment pretty quick and easy, but it was a bit tricky to get us
 
 [GPIO Simple LED Blink Code](Python/led.py)
 
-<img src="Media/ledBlinkSSH.GIF" width="300">
+<img src="Media/ledBlinkSSH.GIF" width="300"> <img src="Media/pinout.png" width="200">
