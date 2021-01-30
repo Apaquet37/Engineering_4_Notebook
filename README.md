@@ -79,6 +79,9 @@ Since this was my first time ever writing or running something with bash, there 
 [GPIO Two LED Blink - Bash](Python/led.sh)
 
 ## GPIO Pins - Python
+This assignment was to blink two leds using python. 
+
+Since I had already knew how to blink an led using python, and had two leds wired from the bash assignment, this was a very quick and easy task. The main thing I got tripped up on was remebering that I had to put everything in a while true, so that I could have the leds blink ten times. Intially, I just had the if statement that would run 10 times, but without a while to go back through, it only ran once. I solved this problem by putting everything in a while true, and then adding an else to the end where I could put the exit() function, so I wouldn't have to stop the program manually once the blinks were over.
 
 [GPIO Two LED Blink - Python](Python/2led.py)
 
