@@ -77,3 +77,9 @@ For this assignment, we were assigned two blink two leds ten times each. Additio
 Since this was my first time ever writing or running something with bash, there was a bit of a steep learning curve, but websites such as [this](https://www.taniarascia.com/how-to-create-and-use-bash-scripts/#conditions) and [this](https://www.teknotut.com/en/first-raspberry-pi-project-blink-led/) were super helpful for giving me an introduction to bash and looking at some commands that related more specifically to blinking leds. I used a for loop to run through turning the leds on and off ten times, pausing for half a second between each step. While writing this code was relatively straightforward once I new the commands, I ran into a lot of trouble with wiring. My leds would be working one minute, and then the next I would run code I know had worked in the past and nothing would turn on. Additionally, through some trial and error, I figured out that with bash, you use the pi pins with their numbers (1-40) instead of the gpio labels that you would find on the pinout map, and that I used for python. 
 
 [GPIO Two LED Blink - Bash](Python/led.sh)
+
+## GPIO Pins - Python
+
+[GPIO Two LED Blink - Python](Python/2led.py)
+
+<img src="Media/2ledBlink.GIF" width="300">
