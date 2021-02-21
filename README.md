@@ -1,6 +1,9 @@
 # Engineering_4_Notebook
 Abby Paquette's Engineering 4 Notebook
 
+[Onshape Assignments](https://github.com/Apaquet37/Onshape)
+
+
 ## Hello Raspberry Pi
 This was my first time ever using a raspberry pi, but this was really just a simple intro assignment. The raspberry pi is a computer, and all it needs is a keyboard, mouse, and monitor to be usable. The biggest hurdle was getting the raspberry pi connected to my computer, but I found that oftentimes a little patience goes a long way and if you wait for the light on the raspberry pi to be completely stable, it will usually work well. Once connected to the computer, I just talked to the pi over serial in a terminal like setting. Then, I ran code that printed hello world 10 times.
 
