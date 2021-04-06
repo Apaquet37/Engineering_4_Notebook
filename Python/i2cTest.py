@@ -56,4 +56,4 @@ while True:
         time.sleep(.5)
         draw.rectangle((17, 17, 50, 75), outline=0, fill=0)
         disp.image(image)
-	disp.display()
+        disp.display()
