@@ -20,7 +20,7 @@ DC = 23
 SPI_PORT = 0
 SPI_DEVICE = 0
 disp = Adafruit_SSD1306.SSD1306_128_32(rst=RST)
-disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d) 
+disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_address=0x3d)
 disp.begin()
 disp.clear()
 disp.display()
@@ -30,6 +30,7 @@ image = Image.new('1', (width, height))
 top = 2
 var = 2
 font = ImageFont.load_default()
+#draw.rectangle((0,0,width,height), outline=0, fill=0)
 
 while True:
 	draw = ImageDraw.Draw(image)
@@ -37,9 +38,9 @@ while True:
 	accel, mag = lsm303.read()
 	# Grab the X, Y, Z components from the reading and print them out.
 	accel_x, accel_y, accel_z = accel
-	x = accel_x
-	y = accel_y
-	z = (round(accel_z/10),3)
+	x = round((accel_x/100),3)
+	y = round((accel_y/100),3)
+	z = round((accel_z/100),3)
 	print('Accel X={0}, Accel Y={1}, Accel Z={2}'.format(accel_x, accel_y, accel_z))
 	print('NEW:  Accel X={0}, Accel Y={1}, Accel Z={2}'.format(x, y, z))
 	draw.text((var, top), 'Accel Data:', font=font, fill=255)
@@ -50,3 +51,6 @@ while True:
 	disp.display()
 	# Wait half a second and repeat.
 	time.sleep(0.5)
+	disp.clear()
+	print("cleared")
+	draw.rectangle((100, 12, 55, 50), outline=0, fill=0)
