@@ -91,9 +91,13 @@ Since I had already knew how to blink an led using python, and had two leds wire
 <img src="Media/2ledBlink.GIF" width="300">
 
 ## Hello Flask
-This assignment was super simple, and I didn't run into any trouble. For Hello Flask, the task was to run a web server with your pi using Flask, a Python based framework that lets your pi become a web server. The task this time was simple, just get the web server up and running and print a simple hello world message to it. While straightforward, it was still pretty gratifying to be able to type my pi's IP address into a browser (on the same network) and see hello world printed on the page.
+This assignment was super quick, and I didn't run into any trouble. For Hello Flask, the task was to run a web server with your pi using Flask, a Python based framework that lets your pi become a web server. The task this time was simple, just get the web server up and running and print a simple hello world message to it. While straightforward, it was still pretty gratifying to be able to type my pi's IP address into a browser (on the same network) and see hello world printed on the page.
 
 [Hello Flask Code](Python/Flask/hello_world/app.py)
 
 <img src="Media/helloFlask2.png" width="400"> <img src="Media/helloFlaskPhone.png" width="300"> <img src="Media/helloFlask.png" width="600">
 
+## GPIO Pins - I2C
+The goal of this assignment was to print the values from an accelerometer to an OLED display.
+
+<img src="Media/i2cPic.jpg" width="300"> <img src="Media/accelData.png" width="300">
