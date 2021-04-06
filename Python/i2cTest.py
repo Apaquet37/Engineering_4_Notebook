@@ -39,24 +39,21 @@ font = ImageFont.load_default()
 
 
 while True:
-	accel, mag = lsm303.read()
-	accel_x, accel_y, accel_z = accel
-	x = round((accel_x/100),3)
-	y = round((accel_y/100),3)
-	z = round((accel_z/100),3)
-	print('Accel X={0}, Accel Y={1}, Accel Z={2}'.format(accel_x, accel_y, accel_z))
-	print('NEW:  Accel X={0}, Accel Y={1}, Accel Z={2}'.format(x, y, z))
-	draw.text((var, top), 'Accel Data:', font=font, fill=255)
-	draw.text((var, top+15), 'x ={0}'.format(x), font=font, fill=255)
-	draw.text((var, top+30), 'y ={0}'.format(y), font=font, fill=255)
-	draw.text((var, top+45), 'z ={0}'.format(z), font=font, fill=255)
-	disp.image(image)
-	disp.display()
-	
+        accel, mag = lsm303.read()
+        accel_x, accel_y, accel_z = accel
+        x = round((accel_x/100),3)
+        y = round((accel_y/100),3)
+        z = round((accel_z/100),3)
+        print('Accel X={0}, Accel Y={1}, Accel Z={2}'.format(accel_x, accel_y, accel_z))
+        print('NEW:  Accel X={0}, Accel Y={1}, Accel Z={2}'.format(x, y, z))
+        draw.text((var, top), 'Accelerometer Data:', font=font, fill=255)
+        draw.text((var, top+15), 'x ={0}'.format(x), font=font, fill=255)
+        draw.text((var, top+30), 'y ={0}'.format(y), font=font, fill=255)
+        draw.text((var, top+45), 'z ={0}'.format(z), font=font, fill=255)
+        disp.image(image)
+        disp.display()
 
-	
-	time.sleep(0.5)
-	#draw.rectangle((100, 12, 55, 50), outline=0, fill=0)
-	#disp.image(image)
-	disp.clear()
+        time.sleep(.5)
+        draw.rectangle((17, 17, 50, 75), outline=0, fill=0)
+        disp.image(image)
 	disp.display()
