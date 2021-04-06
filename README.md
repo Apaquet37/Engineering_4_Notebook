@@ -100,4 +100,4 @@ This assignment was super quick, and I didn't run into any trouble. For Hello Fl
 ## GPIO Pins - I2C
 The goal of this assignment was to print the values from an accelerometer to an OLED display.
 
-<img src="Media/i2cPic.jpg" width="300"> <img src="Media/accelData.png" width="300">
+<img src="Media/i2cPic.jpg" width="300"> <img src="Media/accelData.png" width="700">
