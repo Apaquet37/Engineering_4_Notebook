@@ -41,7 +41,7 @@ while True:
 	y = accel_y
 	z = (round(accel_z/10),3)
 	print('Accel X={0}, Accel Y={1}, Accel Z={2}'.format(accel_x, accel_y, accel_z))
-        print('NEW:  Accel X={0}, Accel Y={1}, Accel Z={2}'.format(x, y, z))
+	print('NEW:  Accel X={0}, Accel Y={1}, Accel Z={2}'.format(x, y, z))
 	draw.text((var, top), 'Accel Data:', font=font, fill=255)
 	draw.text((var, top+16), 'x ={0}'.format(x), font=font, fill=255)
 	draw.text((var, top+30), 'y ={0}'.format(y), font=font, fill=255)
@@ -50,4 +50,3 @@ while True:
 	disp.display()
 	# Wait half a second and repeat.
 	time.sleep(0.5)
-
