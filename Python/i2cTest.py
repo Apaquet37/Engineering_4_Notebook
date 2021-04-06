@@ -27,16 +27,19 @@ disp.display()
 width = disp.width
 height = disp.height
 image = Image.new('1', (width, height))
-top = 2
-var = 2
+
+draw = ImageDraw.Draw(image)
+draw.rectangle((0,0,width,height), outline=0, fill=0)
+
+padding = 2
+top = padding
+bottom = height = padding
+var = padding
 font = ImageFont.load_default()
-#draw.rectangle((0,0,width,height), outline=0, fill=0)
+
 
 while True:
-	draw = ImageDraw.Draw(image)
-	# Read the X, Y, Z axis acceleration values and print them.
 	accel, mag = lsm303.read()
-	# Grab the X, Y, Z components from the reading and print them out.
 	accel_x, accel_y, accel_z = accel
 	x = round((accel_x/100),3)
 	y = round((accel_y/100),3)
@@ -44,13 +47,16 @@ while True:
 	print('Accel X={0}, Accel Y={1}, Accel Z={2}'.format(accel_x, accel_y, accel_z))
 	print('NEW:  Accel X={0}, Accel Y={1}, Accel Z={2}'.format(x, y, z))
 	draw.text((var, top), 'Accel Data:', font=font, fill=255)
-	draw.text((var, top+16), 'x ={0}'.format(x), font=font, fill=255)
+	draw.text((var, top+15), 'x ={0}'.format(x), font=font, fill=255)
 	draw.text((var, top+30), 'y ={0}'.format(y), font=font, fill=255)
 	draw.text((var, top+45), 'z ={0}'.format(z), font=font, fill=255)
 	disp.image(image)
 	disp.display()
-	# Wait half a second and repeat.
+	
+
+	
 	time.sleep(0.5)
+	#draw.rectangle((100, 12, 55, 50), outline=0, fill=0)
+	#disp.image(image)
 	disp.clear()
-	print("cleared")
-	draw.rectangle((100, 12, 55, 50), outline=0, fill=0)
+	disp.display()
