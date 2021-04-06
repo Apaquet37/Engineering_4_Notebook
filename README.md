@@ -102,4 +102,6 @@ The goal of this assignment was to print the values from an accelerometer to an 
 
 To start this assignment, we looked at and ran some sample programs from the libraries that were needed for the hardware we were using (accelerometer and OLED screen). Because we looked at samples, most of the work for this assignment was actually just combining the two sample programs so that the accelerometer data would print to the screen. The most challenging part for me was figuring out how to make sure the data would be continuously legible, and not just become jumble of overlapping numbers from many iterations of data printing on top of itself. My solution was to draw a black rectangle over the area with changing values, which effectively "cleared" that part of the display. This assignment was another good reminder of the importance of using your resources and all examples provided to you.
 
+[GPIO I2C Accelerometer and OLED Display Code](Python/i2cTest.py)
+
 <img src="Media/i2cPic.jpg" width="300"> <img src="Media/accelData.png" width="700">
